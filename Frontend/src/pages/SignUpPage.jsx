@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ShipWheelIcon } from "lucide-react";
 import { Link } from "react-router";
-import useSignUp from "../hooks/useSignup.js";
+import useSignUp from "../hooks/useSignUp.js";
 
 const SignUpPage = () => {
   const [signupData, setSignupData] = useState({

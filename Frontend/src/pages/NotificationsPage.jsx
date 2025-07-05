@@ -1,5 +1,5 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import { acceptFriendRequest, getFriendRequests } from "../lib/api";
+import { acceptFriendRequest, getFriendRequests } from "../lib/api.js";
 import {
   BellIcon,
   ClockIcon,
