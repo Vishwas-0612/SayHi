@@ -14,8 +14,7 @@ import PageLoader from "./components/PageLoader.jsx";
 
 import useAuthUser from "./hooks/useAuthUser.js";
 import Layout from "./components/Layout.jsx";
-import { useThemeStore } from "./store/useThemestore.js";
-
+import useThemeStore from "./store/useThemeStore.js";
 const App = () => {
   // Fetch the authenticated user using a custom hook
   // This hook uses react-query to fetch the user data and manage loading state
